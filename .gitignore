@@ -1,0 +1,26 @@
+# IDE configuration files
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# Gradle files
+.gradle/
+build/
+gradle-cache/
+
+# Generated files and archives
+*.jar
+*.zip
+
+# Log files
+*.log
+logs/
+
+# Server directory
+Server/
+
+# Operating System files
+.DS_Store
+Thumbs.db
