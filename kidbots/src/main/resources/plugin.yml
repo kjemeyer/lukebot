@@ -1,0 +1,8 @@
+name: kidbots
+version: '1.0-SNAPSHOT'
+main: com.lukebot.kidbots.Kidbots
+api-version: '1.21'
+commands:
+  spawnrobot:
+    description: Spawns a named robot.
+    usage: /spawnrobot <mahir|ruhani>
