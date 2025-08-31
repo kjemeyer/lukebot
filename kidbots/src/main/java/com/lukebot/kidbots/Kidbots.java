@@ -13,7 +13,7 @@ public final class Kidbots extends JavaPlugin {
         // getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
 
         // Register the new spawnrobot command
-        getCommand("spawnrobot").setExecutor(new SpawnRobotCommand());
+        getCommand("spawnrobot").setExecutor(new SpawnRobotCommand(this));
     }
 
     @Override
